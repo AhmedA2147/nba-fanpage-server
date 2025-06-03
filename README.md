@@ -28,7 +28,7 @@ This project involved the creation and deployment of a cloud-hosted NBA fan page
 - Uploaded HTML/CSS files to /var/www/html/.
 - Created a DNS entry pointing to the public IP using Azure DNS.
 - Verified accessibility using both domain and IP address.
-- For a full breakdown, check-out [docs/server-setup.md](docs/server-setup.md) 
+- For a full breakdown, check-out [docs/server-setup.md](docs/server-config.md) 
 
 # Repository Structure (still need to add other docs, scripts)
 - README.md                # Overview of the project
