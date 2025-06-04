@@ -100,7 +100,7 @@ The website was organised into adequate sections, demonstrating an understanding
 **NBA Highlights**: Implemented YouTube videos using <iframe> elements to bring dynamic multimedia to the page.
 
 ### Design Considerations 
-All multimedia components are accompanied by proper captions using proper HTML tags like <figure> and <figcaption>, ensuring content is accessible and well-structured. A footer includes a Creative Commons license to clarify content usage rights.
+All multimedia components are accompanied by proper captions using proper HTML tags like "figure" and "figcaption", ensuring content is accessible and well-structured. A footer includes a Creative Commons license to clarify content usage rights.
 
 ### Skills Demonstrated
 This section of the project reflects on the understanding gained from front-end web development. They including:
@@ -153,7 +153,7 @@ To extend the project in the future:
 - [National Basketball Association. (2025). Stephen Curry headshot [Photograph](https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png) 
   
 **[Videos used on Website:](http://nbafanpage.australiaeast.cloudapp.azure.com/)**
-- [Golden Hoops. (2024, May 6). [Stephen Curry’s clutch performance (Video). YouTube.](https://www.youtube.com/watch?v=0DGrPNUyPfg) 
+- [Golden Hoops. (2024, May 6). Stephen Curry’s clutch performance (Video). YouTube.](https://www.youtube.com/watch?v=0DGrPNUyPfg) 
 - [Golden Hoops. (2024, May 4). NBA Playoffs Moments - Clutch Highlights (Video). YouTube.](https://www.youtube.com/watch?v=elxT_VoPqSo)
 
 
