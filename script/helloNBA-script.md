@@ -4,9 +4,9 @@
 This bash script, called helloNBA.sh, is a custom message that is placed on the server, and when executed, it outputs a welcome message for NBA fans and displays the current date using “echo” and the “date” command. It's one of the few ways to demonstrate scripting skills and terminal output on a live server. 
 
 **Skills gained:**
-•	Writing and executing a Bash script.
-•	Using basic system commands.
-•	Deploying and running scripts on a cloud server through SSH.
+- Writing and executing a Bash script.
+- Using basic system commands.
+- Deploying and running scripts on a cloud server through SSH.
 
 ### Guide to create and run script:
 **Step 1: Make sure the Virtual Machine on Azure is running.**
