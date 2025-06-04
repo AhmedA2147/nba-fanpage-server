@@ -99,10 +99,10 @@ The website was organised into adequate sections, demonstrating an understanding
 
 **NBA Highlights**: Implemented YouTube videos using <iframe> elements to bring dynamic multimedia to the page.
 
-#### Design Considerations 
+### Design Considerations 
 All multimedia components are accompanied by proper captions using proper HTML tags like <figure> and <figcaption>, ensuring content is accessible and well-structured. A footer includes a Creative Commons license to clarify content usage rights.
 
-#### Skills Demonstrated
+### Skills Demonstrated
 This section of the project reflects on the understanding gained from front-end web development. They including:
 - Proper HTML structuring.
 - CSS styling for layout and look.
