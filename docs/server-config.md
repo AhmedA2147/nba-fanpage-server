@@ -83,6 +83,65 @@ Visit your website to confirm it’s updated and live:
 *	[http://4.254.74.158](http://4.254.74.158)  
 *	[http://nbafanpage.australiaeast.cloudapp.azure.com](http://nbafanpage.australiaeast.cloudapp.azure.com)
 
+## SSL/TLS setup
+Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are protocols that:
+- Encrypt data between the user and your web server.
+- Protect against data interference, such as using passwords and forms.
+- Show a padlock icon in the browser.
+- Changes your site URL from “http://” to “https://”.
+
+### Why it’s necessary: 
+- It's required for user trust for modern browsers.
+- Helps increase your site’s Google SEO ranking.
+- Secure data transmission, especially important for login pages, forms and CMS such as WordPress.
+- Gives your site a sense of professionalism that should always be expected.
+
+### Guide to have SSL and TSL:
+### Step 1: Confirmation
+- Make sure your server is up and running. Follow the guide on **“Setting up the cloud server: Azure, SSH and Linux setup"**
+- Make sure Apache is installed. Follow the guide on **“Web Server Setup: Apache install/config”**
+- Make sure Port 80 and Port 443 are open in Azure. Follow the guide on **“Setting up the cloud server: Azure, SSH and Linux setup”**
+
+### Step 2: If not, make sure the Virtual Machine on Azure is running.
+- Log in or sign up with Microsoft Azure.
+- This is the link: [https://azure.microsoft.com/en-au](https://azure.microsoft.com/en-au)
+- Click Start VM.
+
+### Step 3: Connect to you Azure VM through SSH.
+- Open terminal 
+- Now SSH into your VM:
+- To SSH into your virtual machine, enter in the terminal:
+```bash
+ssh -i “Key pair name”key.pem Username@PublicIPAddress
+```
+So, for the NBA fan page project, this is how the terminal would look:
+```bash
+ssh -i NBAFanPageVM_key.pem azureuser@4.254.74.158
+```
+Make sure when you do this, the private key is in the right directory. 
+- If this is your first time connecting, you will be asked to accept the fingerprint. Type “yes” to proceed.
+
+### Step 4: Install Certbot & Apache plugin.
+- Inside the terminal, type:
+```bash
+sudo apt update
+sudo apt install certbot python3-certbot-apache -y
+```
+
+### Step 5: Run Certbot to obtain and install the SSL certificate.
+-	Inside the terminal type:
+```bash
+sudo certbot –apache
+```
+- Follow the questions the command asks you, such as entering your email, domain name and accepting terms and services.
+- Now Certbot will directly configure Apache, download and install Apache then reload it.
+
+### Step 6: Check if HTTPS is working.
+- Go to your browser now and type your domain name, but this time lead it with https://:
+Example: [https://nbafanpage.australiaeast.cloudapp.azure.com](https://nbafanpage.australiaeast.cloudapp.azure.com)
+- Now your website should come up, but this time https:// is in the address bar and there's a padlock in the browser.
+- To check if the certificate is installed, click on the padlock logo on the search browser of your now secured site, and it should tell you where it's issued by and how long till expires or if the certificate is still valid.
+
 ## Website content: NBA Fan Page
 The NBA Fan Page website was built entirely using custom HTML and CSS, and deployed through the Apache web server on a Linux virtual machine hosted on Microsoft Azure. This site was made to attract NBA fans by showing them relevant and engaging basketball content in a structured and visually appealing layout.
 
