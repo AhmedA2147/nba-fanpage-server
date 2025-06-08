@@ -41,10 +41,10 @@ A custom DNS entry was also set up using Azure’s DNS service to point to the p
 # Repository Structure 
 - README.md                # Overview of the project
     - docs/
-        - server-config.md       # Detailed documentation of server configuration in md.
-        - wordPress-config.md    # Detailed documentation of wordPress installation and configuration in md.
+        - server-config.md         **Detailed documentation of server configuration in md.**
+        - wordPress-config.md     **Detailed documentation of wordPress installation and configuration in md.**
     - scripts/
-        - helloNBA-script.md     # Detailed documention of script used in server.
+        - helloNBA-script.md        **Detailed documention of script used in server.**
                    
 
 # Video Explainer
