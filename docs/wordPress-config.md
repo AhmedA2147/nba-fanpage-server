@@ -59,7 +59,7 @@ sudo systemctl restart apache2
 Step 8: Accessing WordPress
 ```
 -	Once completed, WordPress can now be accessed through either:
-[http://<your-public-ip>/wordpress](http://<your-public-ip>/wordpress)
+http://<your-public-ip>/wordpress
 example: [http://4.254.74.158/wordpress](http://4.254.74.158/wordpress)
 - Or through domain
 [http://nbafanpage.australiaeast.cloudapp.azure.com/wordpress](http://nbafanpage.australiaeast.cloudapp.azure.com/wordpress)
