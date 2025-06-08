@@ -32,11 +32,11 @@ A custom DNS entry was also set up using Azure’s DNS service to point to the p
 - Installed and configured Apache web server to host both static HTML and WordPress.
 - Uploaded HTML/CSS files to /var/www/html/ for the custom NBA fan page.
 - Created a DNS entry using Azure DNS to point a domain to the public IP.
-- Installed and configured WordPress manually in /var/www/html/wordpress/ with MySQL. For a full breakdown, check out docs/wordPress-config.md
+- Installed and configured WordPress manually in /var/www/html/wordpress/ with MySQL. For a full breakdown, check out [WordPress Installation](docs/wordpress-config.md).
 - Installed a free SSL certificate using Certbot to enable secure HTTPS access.
 - Verified accessibility through both public IP and domain (HTTP and HTTPS).
-- Created a bash script that outputs a welcome message for NBA fans and displays the current date. For a full breakdown, check out script/helloNBA-script.md
-- For a full breakdown of all the other set-ups, check out docs/server-setup.md 
+- Created a bash script that outputs a welcome message for NBA fans and displays the current date. For a full breakdown, check out [Bash Script Guide](scripts/helloNBA-script.md). 
+- For a full breakdown of all the other set-ups, check out [Server Configuration](docs/server-config.md).
 
 # Repository Structure 
 - README.md                # Overview of the project
