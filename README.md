@@ -35,7 +35,7 @@ A custom DNS entry was also set up using Azure’s DNS service to point to the p
 - Installed and configured WordPress manually in /var/www/html/wordpress/ with MySQL. For a full breakdown, check out [WordPress Installation](docs/wordPress-config.md).
 - Installed a free SSL certificate using Certbot to enable secure HTTPS access.
 - Verified accessibility through both public IP and domain (HTTP and HTTPS).
-- Created a bash script that outputs a welcome message for NBA fans and displays the current date. For a full breakdown, check out [Bash Script Guide](scripts/helloNBA-script.md). 
+- Created a bash script that outputs a welcome message for NBA fans and displays the current date. For a full breakdown, check out [Bash Script Guide](script/helloNBA-script.md). 
 - For a full breakdown of all the other set-ups, check out [Server Configuration](docs/server-config.md).
 
 # Repository Structure 
