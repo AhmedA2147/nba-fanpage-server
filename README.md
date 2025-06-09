@@ -48,7 +48,8 @@ A custom DNS entry was also set up using Azure’s DNS service to point to the p
                    
 
 # Video Explainer
--  [Click here to watch NBA Fan Page project explainer (Google Drive)](https://drive.google.com/file/d/1ILHjUcZj1FYhvrEtbCJGVpBKgamWnAWT/view?usp=sharing) 
+-  [Click here to watch NBA Fan Page project explainer (Google Drive)](https://drive.google.com/file/d/1ILHjUcZj1FYhvrEtbCJGVpBKgamWnAWT/view?usp=sharing)
+-  If video playback is still processing, please click “Download” on Google Drive to view the explainer.
 
 
 
