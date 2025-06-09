@@ -1,5 +1,6 @@
 # NBA Fan Page Server
-## By: Ahmed Abdulle  Student ID: 33472601
+## By: Ahmed Abdulle  
+## Student ID: 33472601
 
 This project involved the creation and deployment of a cloud-hosted NBA fan page website that shows iconic NBA moments, NBA teams and their players and related multimedia content. By doing this, I will show my proficiency and ability to demonstrate my understanding of infrastructure as a service (IaaS) by manually configuring and managing a Linux-based web server using command-line tools and showcasing web development. 
 The server hosts a basic HTML/CSS website made to appeal to NBA fans. To host the website, I used Microsoft Azure as the cloud provider and created a Linux-based virtual machine (VM) using Ubuntu Server. The VM was configured manually through SSH (Secure Shell) access from my local machine. After utilising the VM, I installed and configured the Apache web server to serve the web content from the directory.
