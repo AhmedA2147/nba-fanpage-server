@@ -48,8 +48,7 @@ A custom DNS entry was also set up using Azure’s DNS service to point to the p
                    
 
 # Video Explainer
--  A walkthrough video of the server setup and site creation (need to add link) 
-
+-  [Click here to watch NBA Fan Page project explainer (Google Drive)](https://drive.google.com/file/d/1ILHjUcZj1FYhvrEtbCJGVpBKgamWnAWT/view?usp=sharing) 
 
 
 
