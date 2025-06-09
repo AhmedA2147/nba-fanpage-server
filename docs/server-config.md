@@ -131,7 +131,7 @@ sudo apt install certbot python3-certbot-apache -y
 ### Step 5: Run Certbot to obtain and install the SSL certificate.
 -	Inside the terminal type:
 ```bash
-sudo certbot –apache
+sudo certbot --apache
 ```
 - Follow the questions the command asks you, such as entering your email, domain name and accepting terms and services.
 - Now Certbot will directly configure Apache, download and install Apache then reload it.
